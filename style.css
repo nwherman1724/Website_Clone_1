@@ -34,9 +34,12 @@ header{
 
 .marquee {
     font-size: 70px;
-    padding: 0 6rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+    /* padding: 0 6rem; */
     white-space: nowrap;
-    animation: move-rtl 6000ms linear infinite;
+    letter-spacing: 1px;
+    animation: move-rtl 20000ms linear infinite;
 }
 
 @keyframes move-rtl {
