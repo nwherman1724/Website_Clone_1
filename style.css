@@ -26,4 +26,24 @@ header{
 .banner {
     background-color: red;
     height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.marquee {
+    font-size: 70px;
+    padding: 0 6rem;
+    white-space: nowrap;
+    animation: move-rtl 6000ms linear infinite;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%)
+    }
 }
